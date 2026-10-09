@@ -1,0 +1,39 @@
+* {
+    text-align: center;
+}
+
+.frame {
+    display: flex;
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#inner {
+    border: 2px solid black;
+    width: 140px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.flash {
+    background-color: white;
+}
